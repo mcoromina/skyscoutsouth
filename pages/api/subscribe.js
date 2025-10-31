@@ -16,7 +16,7 @@ export default async function handler(req, res) {
   try {
     // Send confirmation email
     await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'hello@skyscoutsouth.com',
       to: email,
       subject: 'Welcome to SkyScout South! 🎉',
       html: `
